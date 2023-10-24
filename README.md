@@ -29,9 +29,9 @@ Chatty LIVE! is a real-time web chat application built with Node.js, Express, an
 
 ## Running the Application
 1. Start the server:
-   <pre>
+<pre>
   node server.js
-  </pre>
+</pre>
 2. Open your web browser and go to http://localhost:5000 to access Chatty LIVE!
 
 ## Dependencies
