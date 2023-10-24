@@ -18,7 +18,7 @@ Chatty LIVE! is a real-time web chat application built with Node.js, Express, an
 ## Getting Started
 1. Clone the repository to your local machine:
    <pre>
-   git clone https://github.com/yourusername/chatty-live.git
+   git clone https://github.com/genebene11/chatty-live.git
    </pre>
 2. Install project dependencies using npm:
    <pre>
