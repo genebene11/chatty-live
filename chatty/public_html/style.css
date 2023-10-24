@@ -1,0 +1,27 @@
+#container {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+#chatMessages {
+    background-color: palevioletred;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 30%;
+    overflow: auto; /* Add overflow property for scrolling */
+}
+
+#messageSubmission {
+    background-color: darkseagreen;
+    position: absolute;
+    top: 70%;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
