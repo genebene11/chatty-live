@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatty LIVE!</title>
+    <link id="cssFile" rel="stylesheet" type="text/css" href="/public_html/style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="chatMessages">
+        </div>
+        <div id="messageSubmission">
+            <br>
+            <form action="/">
+                <label for="alias">Alias:</label>
+                <input type="text" id="alias" name="alias"><br><br>
+                <label for="message">Message:</label>
+                <input type="text" id="message" name="message"><br><br>
+                <input type="submit" id="submit" value="Send Message">
+              </form>
+        </div>
+    </div>  
+
+    <script src="/server.js"></script>
+    <script src="/public_html/client.js"></script>
+</body>
+</html>
